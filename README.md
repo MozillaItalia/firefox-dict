@@ -15,9 +15,13 @@ Puoi, in alternativa sui sistemi Windows, scaricare e utilizzare un VBScript che
 
     HTTPDownload "https://raw.githubusercontent.com/gioxx/firefox-dict/master/persdict.dat", "C:\Users\TUONOME\AppData\Roaming\Mozilla\Firefox\Profiles\TUACARTELLAPROFILO\persdict.dat"
 
-**Non toccare la stringa fino alla prima virgola che incontrerai** (nella prima parte è infatti specificato l'indirizzo del file `persict.dat` più aggiornato su GitHub), modifica esclusivamente la seconda parte, inserendo all'interno degli apici la corretta posizione del tuo profilo (*Cartella radice*), recuperabile proprio dalla pagina `about:profiles` di cui ti parlavo poco fa:
+**Non toccare la stringa fino alla prima virgola che incontrerai** (nella prima parte è infatti specificato l'indirizzo del file `persict.dat` più aggiornato su GitHub), modifica esclusivamente la seconda parte, inserendo all'interno degli apici la corretta posizione del tuo profilo (*Cartella radice*), recuperabile proprio dalla pagina `about:profiles` di cui ti parlavo poco fa, **mantenendo** il `\persdict.dat` finale:
 
 ![enter image description here](https://dict.noads.it/images/about_profiles.png)
+
+Nel caso dell'immagine poco sopra, la stringa modificata risulterebbe questa:
+
+    HTTPDownload "https://raw.githubusercontent.com/gioxx/firefox-dict/master/persdict.dat", "C:\Users\giovanni.solone\AppData\Roaming\Mozilla\Firefox\Profiles\12kdrzbp.uBlock\persdict.dat"
 
 Licenza d'uso, distribuzione e supporto
 ---------------------------------------
