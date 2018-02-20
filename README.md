@@ -9,7 +9,7 @@ Il progetto (se così lo si può definire) nasce per Mozilla Firefox, **ma è co
 persdict.dat & Download
 -----------------
 
-Puoi scaricare il file `persict.dat` direttamente dai file disponibili in questo repository, **sostituendolo a quello già presente all'interno della cartella del tuo profilo** (digita `about:profiles` nella barra URL, premi invio, individua e apri la cartella relativa al profilo utilizzato, è la *Cartella radice*). Non c'è bisogno di riavvio, il file è immediatamente utilizzato per il controllo ortografico.
+Puoi scaricare il file `persict.dat` direttamente dai file disponibili in questo repository, **sostituendolo a quello già presente all'interno della cartella del tuo profilo** (digita `about:profiles` nella barra URL, premi invio, individua e apri la cartella relativa al profilo utilizzato, è la *Cartella radice*). Il file aggiornato verrà utilizzato per il controllo ortografico al successivo riavvio di Firefox.
 
 Puoi, in alternativa sui sistemi Windows, scaricare e utilizzare un VBScript che si occupa dell'operazione permettendoti di automatizzarla. Naviga nella cartella "*Downloader*" di questo repository, scarica il file `FirefoxDictDownloader.vbs`, aprilo con un editor di testo e modifica la riga che comincia con `HTTPDownload`:
 
