@@ -1,5 +1,4 @@
 
-
 FIREFOX:DICT (dict.noads.it)
 ===================
 **FIREFOX:DICT** è un dizionario personalizzato collaborativo che migliora il rapporto tra utente finale e controllo ortografico del browser di casa Mozilla. Il "*Dizionario italiano*" [disponibile su AMO](https://addons.mozilla.org/it/firefox/addon/dizionario-italiano/?src=userprofile) si basa sul [pacchetto nato per OpenOffice.org](https://extensions.openoffice.org/project/dict-it), evidentemente non troppo al passo con i tempi.
@@ -23,12 +22,25 @@ Nel caso dell'immagine poco sopra, la stringa modificata risulterebbe questa:
 
     HTTPDownload "https://raw.githubusercontent.com/gioxx/firefox-dict/master/persdict.dat", "C:\Users\giovanni.solone\AppData\Roaming\Mozilla\Firefox\Profiles\12kdrzbp.uBlock\persdict.dat"
 
+## Per i collaboratori
+
+**Case Sensitive**
+
+Come riportato in [uno dei primi commit](https://github.com/gioxx/firefox-dict/commit/7d6be15daee11d7da0bee511300f0f8e3265b094), Firefox tiene conto di maiuscole e minuscole in case-sensitive, per questo motivo è necessario includere nuovi termini con prima lettera minuscola e, se reputate che possano essere utilizzati anche a inizio frase (o comunque in qualsiasi altra occasione sensata) anche con lettera maiuscola, rispettando (se possibile) l'ordinamento A-Z e a-z.
+
 Licenza d'uso, distribuzione e supporto
 ---------------------------------------
 
 Dove non diversamente specificato, **FIREFOX:DICT viene rilasciato con licenza Creative Commons, versione 4.0 by-nc-sa generica**, descritta punto per punto a questo indirizzo: [creativecommons.org/licenses/by-nc-sa/4.0/deed.it](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.it) (oppure in inglese: [creativecommons.org/licenses/by-nc-sa/4.0/deed.en](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)).
 
 Neanche a dirlo, il file `persdict.dat` personalizzato è volutamente pensato e mantenuto per contenere termini in lingua italiana (presenti a dizionario o per lo meno accettati nella lingua comune), non sono permessi termini in altre lingue (e verranno rifiutate eventuali richieste di pull/merge).
+
+## Sostieni il progetto
+Se ti va, puoi sostenere il progetto tramite donazioni, qui di seguito le tre possibilità:
+
+ - [Dona con PayPal](https://paypal.me/gioxx)
+ - [Offrimi un caffè con Buy Me A Coffee](https://www.buymeacoffee.com/gioxx)
+ - [Diventa sostenitore su Patreon](https://www.patreon.com/gioxx)
 
 Grazie!
 -------
