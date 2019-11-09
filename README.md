@@ -1,5 +1,5 @@
 
-FIREFOX:DICT (dict.noads.it)
+FIREFOX:DICT ([dict.noads.it](https://dict.noads.it))
 ===================
 **FIREFOX:DICT** è un dizionario personalizzato collaborativo che migliora il rapporto tra utente finale e controllo ortografico del browser di casa Mozilla. Il "*Dizionario italiano*" [disponibile su AMO](https://addons.mozilla.org/it/firefox/addon/dizionario-italiano/?src=userprofile) si basa sul [pacchetto nato per OpenOffice.org](https://extensions.openoffice.org/project/dict-it), evidentemente non troppo al passo con i tempi.
 
